@@ -1,6 +1,6 @@
 package model;
 
-// เอนทิตีสำหรับผู้สมัคร
+// Entityสำหรับผู้สมัคร
 public class Candidate {
     public enum CandidateStatus { STUDYING, GRADUATED }
 

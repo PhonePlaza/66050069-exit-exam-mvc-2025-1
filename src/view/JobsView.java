@@ -8,22 +8,22 @@ import java.util.List;
 import model.Job;
 import model.Repository;
 
-/** หน้า “ตำแหน่งงานที่เปิด” */
+/** หน้าแสดง ตำแหน่งงานที่เปิด */
 public class JobsView extends JPanel {
 
     // callback ให้ Controller ใส่
     public interface SortHandler   { void handle(String key); }
     public interface ApplyHandler  { void handle(String jobId); }
-    public interface LogoutHandler { void handle(); } // <-- เพิ่ม callback สำหรับ Logout
+    public interface LogoutHandler { void handle(); } 
 
     private SortHandler onSort;
     private ApplyHandler onApply;
-    private LogoutHandler onLogout; // <-- เก็บ handler
+    private LogoutHandler onLogout; 
 
     private JTable table;
     private JComboBox<String> cbSort;
     private JButton btnApply;
-    private JButton btnLogout;      // <-- ปุ่ม Logout
+    private JButton btnLogout;      
 
     public JobsView() {
         setLayout(new BorderLayout(10,10));

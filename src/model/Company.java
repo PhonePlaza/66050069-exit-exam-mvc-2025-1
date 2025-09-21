@@ -1,7 +1,6 @@
 package model;
 
-// เอนทิตีสำหรับบริษัท (ข้อมูลพื้นฐาน)
-// (คอมเมนต์ไทย / โค้ดและข้อความเป็นอังกฤษ)
+// Entityสำหรับบริษัท (ข้อมูลพื้นฐาน)
 public class Company {
     public String id;       // 8 หลัก ตัวแรกไม่เป็น 0
     public String name;

@@ -3,10 +3,9 @@ package view;
 import javax.swing.*;
 import java.awt.*;
 
-/** หน้าล็อกอินแบบง่าย (UI เป็นอังกฤษ, คอมเมนต์ไทย) */
+/** หน้า Login */
 public class LoginView extends JPanel {
 
-    // ให้ Controller ใส่ callback
     public interface LoginHandler { void handle(String email, String role); }
     private LoginHandler onLogin;
 

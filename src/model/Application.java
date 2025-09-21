@@ -2,7 +2,7 @@ package model;
 
 import java.time.LocalDateTime;
 
-/** เอนทิตีสำหรับแถวข้อมูลใบสมัคร (อ่านจาก applications.csv) */
+/** Entityสำหรับแถวข้อมูลใบสมัคร (อ่านจาก applications.csv) */
 public class Application {
     public String jobId;
     public String candidateId;

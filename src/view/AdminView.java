@@ -82,7 +82,7 @@ public class AdminView extends JPanel {
 
     /** ดึงข้อมูลแอปพลิเคชันของแถว (สำหรับ Controller ใช้หา id ต้นทาง) */
     public String getCandidateIdAtRow(int rowIdx) {
-        // รูปแบบ: "Name (ID)" → ตัด () ด้านท้าย
+        // รูปแบบ: "Name (ID)"  ตัด () ด้านท้าย
         String v = (String) dtm.getValueAt(rowIdx, 0);
         int s = v.lastIndexOf('('), e = v.lastIndexOf(')');
         return (s >= 0 && e > s) ? v.substring(s+1, e) : "";

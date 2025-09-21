@@ -1,6 +1,6 @@
 package model;
 
-// อินเทอร์เฟซนโยบายการสมัคร (แยกให้ชัดเจน)
+// interfaceนโยบายการสมัคร (แยกเพื่อความชัดเจน)
 public interface ApplicationPolicy {
     boolean canApply(Candidate c, Job j);
 }

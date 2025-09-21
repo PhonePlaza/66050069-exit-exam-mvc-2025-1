@@ -2,14 +2,14 @@ package model;
 
 import java.time.LocalDate;
 
-// เอนทิตีสำหรับงาน/ตำแหน่ง
+// Entityสำหรับงาน/ตำแหน่ง
 public class Job {
     public enum JobType { REGULAR, COOP }
 
     public String id;             // 8 หลัก ตัวแรกไม่เป็น 0
     public String title;
     public String description;
-    public String companyId;      // FK → Company.id
+    public String companyId;      
     public LocalDate deadline;    // วันสุดท้ายรับสมัคร
     public boolean open;          // เปิดรับ/ปิดรับ
     public JobType type;          // REGULAR | COOP

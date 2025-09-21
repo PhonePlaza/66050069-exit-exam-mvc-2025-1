@@ -12,7 +12,7 @@ public class MainWindow extends JFrame {
     public final LoginView loginView = new LoginView();
     public final JobsView jobsView = new JobsView();
     public final ApplyView applyView = new ApplyView();
-    public final AdminView adminView = new AdminView(); // หน้าใหม่
+    public final AdminView adminView = new AdminView(); 
 
     public MainWindow() {
         setTitle("Job Fair - MVC (Swing)");
@@ -31,7 +31,7 @@ public class MainWindow extends JFrame {
     public void showLogin(){ card.show(root, "LOGIN"); }
     public void showJobs() { card.show(root, "JOBS"); }
     public void showApply(){ card.show(root, "APPLY"); }
-    public void showAdmin(){ card.show(root, "ADMIN"); } // หน้าผู้ดูแล
+    public void showAdmin(){ card.show(root, "ADMIN"); } 
 
     public void setSessionTitle(String email, String role) {
         setTitle("Job Fair - MVC | " + role + " | " + email);
