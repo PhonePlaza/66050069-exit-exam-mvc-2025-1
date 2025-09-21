@@ -1,0 +1,11 @@
+job_id,title,description,company_id,deadline,open,type
+20000001,Backend Developer,Java/Spring,10000001,2030-01-30,true,REGULAR
+20000002,Frontend Developer,React,10000001,2030-01-20,true,REGULAR
+20000003,Data Intern,ETL and SQL,10000001,2030-02-10,true,COOP
+20000004,QA Engineer,Testing and QA,10000001,2030-01-15,true,REGULAR
+20000005,UX Intern,Figma and UX Research,10000002,2030-01-25,true,COOP
+20000006,DevOps Engineer,CI/CD pipelines,10000002,2030-02-05,true,REGULAR
+20000007,AI Intern,Python ML,10000002,2030-02-15,true,COOP
+20000008,Mobile Developer,Kotlin Android,10000001,2030-01-12,true,REGULAR
+20000009,Support Intern,Helpdesk support,10000002,2030-01-18,true,COOP
+20000010,Security Analyst,Blue team,10000001,2030-03-01,true,REGULAR
